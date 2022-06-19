@@ -31,7 +31,7 @@ mov ah,1
 int 21h
 mov bl,al ;move input to bl ;check here
 
-mov BX, 0
+
 
 cmp bl,30 ;compare the two inputs
 jl line1
